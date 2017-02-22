@@ -8,11 +8,11 @@ namespace Homework_4_1
 {
     class Program
     {
-        private static double indexOfTheNumber(double[] a, double n, int maxArray)
+        private static double indexOfTheNumber(double[] a, double n)
         {
             double indexNum = 0;
             //double[] ii = new double[maxArray];
-            for (int i = 0; i < maxArray; i++)
+            for (int i = 0; i < 10; i++)
             {
                 if(a[i] == n)
                 {
@@ -48,7 +48,7 @@ namespace Homework_4_1
             }
 
 
-            Console.WriteLine("\nindex of the " + n + " is " + indexOfTheNumber(a, n, maxArray));
+            Console.WriteLine("\nindex of the " + n + " is " + indexOfTheNumber(a, n));
            
             Console.Read();
         }
